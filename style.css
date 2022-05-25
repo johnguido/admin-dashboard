@@ -27,6 +27,7 @@ body {
   grid-area: 1 / 2 / 2 / 3;
   display: grid;
   grid-template-columns: 2fr repeat(3, 1fr);
+  padding-left: 15px;
 }
 
 .left-header {
