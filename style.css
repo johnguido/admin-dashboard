@@ -8,6 +8,7 @@
 html,
 body {
   min-height: 100vh;
+  min-width: 1300px;
   background-color: black;
   font-family: "momcake";
 }
@@ -15,7 +16,7 @@ body {
 /*                       MAIN GRID SETUP                      */
 
 .main-content {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 300px minmax(700px, 1fr);
   grid-template-rows: 200px minmax(700px, 1fr);
