@@ -8,7 +8,6 @@
 html,
 body {
   min-height: 100vh;
-  min-width: 1300px;
   background-color: black;
   font-family: "momcake";
 }
@@ -211,7 +210,7 @@ li {
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 1fr));
   grid-template-rows: repeat(3, minmax(100px, 1fr));
-  gap: 20px;
+  gap: 30px;
 }
 
 .project {
@@ -221,7 +220,7 @@ li {
   box-shadow: 5px 5px 5px #dadee0;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  padding: 20px;
+  padding: 25px;
 }
 
 .project-upper {
@@ -246,5 +245,6 @@ li {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  gap: 10px;
+  gap: 25px;
+  margin-right: 20px;
 }
