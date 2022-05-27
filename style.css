@@ -289,3 +289,41 @@ li {
   margin-top: 0px;
   color: darkgray;
 }
+
+.right-lower {
+  grid-row: 2 / 3;
+}
+
+.right-low-cont {
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.right-low-cont > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.2;
+}
+
+.flex {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex > p {
+  margin: 2px;
+  font-size: 1.2rem;
+}
+
+.flex > h4 {
+  margin: 2px;
+  font-size: 1.2rem;
+}
