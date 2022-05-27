@@ -17,7 +17,7 @@ body {
 .main-content {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 300px minmax(700px, 1fr);
+  grid-template-columns: 340px minmax(700px, 1fr);
   grid-template-rows: 200px minmax(700px, 1fr);
 }
 
